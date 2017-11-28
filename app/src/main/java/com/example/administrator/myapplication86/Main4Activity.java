@@ -39,7 +39,7 @@ public class Main4Activity extends AppCompatActivity {
     }
 
     public void four(View vi) {
-        Intent i = new Intent(this, ScnenTransitionsActivity.class);
+        Intent i = new Intent(this, Main5Activity.class);
         startActivity(i);
     }
 

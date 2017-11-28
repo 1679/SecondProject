@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/One"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginTop="64dp"
+        android:layout_toStartOf="@+id/Three"
+        android:onClick="goToScene2"
+        android:text="김주희" />
+
+    <Button
+        android:id="@+id/Two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/One"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/Three"
+        android:onClick="goToScene1"
+        android:text="2-C" />
+
+    <Button
+        android:id="@+id/Three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp"
+        android:text="정보경영과" />
+
+</RelativeLayout>
